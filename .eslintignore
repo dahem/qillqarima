@@ -1,0 +1,4 @@
+./src/docNames.js
+*.txt
+*.json
+*.yml

@@ -1,0 +1,91 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+ th {
+  background: #ccc;
+  text-align: left;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+h3, h2, h1 {
+  color: rgba(0,0,0,0.75);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2 {
+  font-size: larger;
+}
+
+h3 {
+  font-size: large;
+}
+
+.main {
+  padding-left: 210px;
+  overflow-x: hidden;
+}
+
+.section {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 50% 50%;
+  border-bottom: 2px solid rgba(0,0,0,0.10);
+}
+
+.language-endpoint {
+  font-size: 14px;
+  height: 100px;
+  padding: 10px;
+  letter-spacing: 0;
+  background-color: #404040;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.example {
+  background: #f8f8f8;
+}
+
+.end-point {
+  background: #222426;
+  color: white;
+  min-height: 30px;
+  border-radius: 3px;
+  display: flex;
+}
+
+.end-point >div {
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.method {
+  background: #555555;
+}
+
+.path {
+  word-break: break-all;
+}

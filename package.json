@@ -1,0 +1,34 @@
+{
+  "name": "Qillqarima",
+  "version": "1.0.0",
+  "description": "api documentation tool, simple and less code, read markdowns files",
+  "main": "src/pages/index.jsx",
+  "scripts": {
+    "dev": "next dev ./src",
+    "start": "next start ./src",
+    "build": "nnext build ./src",
+    "export": "next export ./src",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.0.4",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^2.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.0.6",
+    "react-scrollspy": "^3.4.0",
+    "react-syntax-highlighter": "^10.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
